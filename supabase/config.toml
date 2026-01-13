@@ -1,0 +1,4 @@
+project_id = "uhqdwftncbkmjuuzjrtr"
+
+[functions.website-assistant]
+verify_jwt = false
