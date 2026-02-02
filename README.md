@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# REKER TECH SOLUTIONS
 
-## Project info
+**Ingeniería Eléctrica Industrial, Automatización y Robótica.**
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Esta aplicación web presenta los servicios, proyectos y capacidades de Reker Tech Solutions, una empresa líder en soluciones de ingeniería industrial.
 
-## How can I edit this code?
+![Reker Tech Solutions](src/assets/hero-automation.jpg)
 
-There are several ways of editing your application.
+## Tecnologías Utilizadas
 
-**Use Lovable**
+Este proyecto está construido con un stack moderno y eficiente:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **[Vite](https://vitejs.dev/)**: Entorno de desarrollo ultrarrápido.
+- **[React](https://react.dev/)**: Biblioteca para interfaces de usuario.
+- **[TypeScript](https://www.typescriptlang.org/)**: Tipado estático para un código más robusto.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Framework de CSS utilitario para un diseño rápido y responsivo.
+- **[shadcn/ui](https://ui.shadcn.com/)**: Componentes de interfaz de alta calidad.
+- **[Supabase](https://supabase.com/)**: Backend para funcionalidades avanzadas (como el asistente virtual).
 
-Changes made via Lovable will be committed automatically to this repo.
+## Instalación y Ejecución
 
-**Use your preferred IDE**
+Para ejecutar este proyecto en local, sigue estos pasos:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1.  **Clonar el repositorio:**
+    ```bash
+    git clone https://github.com/pablete64/rekertechsolutions.git
+    cd rekertechsolutions
+    ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2.  **Instalar dependencias:**
+    Asegúrate de tener [Node.js](https://nodejs.org/) instalado.
+    ```bash
+    npm install
+    ```
 
-Follow these steps:
+3.  **Iniciar el servidor de desarrollo:**
+    ```bash
+    npm run dev
+    ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+4.  **Abrir en el navegador:**
+    Visita `http://localhost:8080` para ver la aplicación.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Estructura del Proyecto
 
-# Step 3: Install the necessary dependencies.
-npm i
+- `src/pages`: Páginas principales (Inicio, Servicios, Proyectos, Contacto, etc.).
+- `src/components`: Componentes reutilizables (UI, Layout, Secciones específicas).
+- `src/assets`: Imágenes, vídeos y recursos estáticos.
+- `supabase/functions`: Funciones "Edge" para el backend.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Despliegue
 
-**Edit a file directly in GitHub**
+El proyecto está preparado para ser desplegado en plataformas como **Vercel** o **Netlify**. Simplemente conecta tu repositorio de GitHub y el despliegue será automático.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Contacto
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Reker Tech Solutions**
+Email: info@rekertechsolutions.com
+Web: [rekertechsolutions.com](https://rekertechsolutions.com)

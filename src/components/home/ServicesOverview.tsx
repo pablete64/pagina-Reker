@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
-import { 
-  Zap, 
-  Settings, 
-  Cpu, 
-  Cable, 
-  LayoutGrid, 
-  Truck, 
+import {
+  Zap,
+  Settings,
+  Cpu,
+  Cable,
+  LayoutGrid,
+  Truck,
   Wrench,
   ArrowRight
 } from 'lucide-react';
@@ -55,10 +55,13 @@ const services = [
   },
 ];
 
+import ParticleRing from '@/components/ui/ParticleRing';
+
 export default function ServicesOverview() {
   return (
-    <section className="py-24 bg-secondary/30">
-      <div className="container-wide section-padding">
+    <section className="relative py-24 bg-secondary/10 overflow-hidden">
+      <ParticleRing />
+      <div className="container-wide section-padding relative z-10">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-block px-3 py-1 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-4">
@@ -68,7 +71,7 @@ export default function ServicesOverview() {
             Soluciones integrales para la industria
           </h2>
           <p className="text-muted-foreground text-lg">
-            Ofrecemos un amplio catálogo de servicios de ingeniería eléctrica y automatización 
+            Ofrecemos un amplio catálogo de servicios de ingeniería eléctrica y automatización
             para cubrir todas las necesidades de su planta industrial.
           </p>
         </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,53 +13,53 @@
     --primary-foreground: 0 0% 100%;
     --primary-light: 152 45% 45%;
     --primary-dark: 152 60% 25%;
-    
+
     /* Charcoal Neutrals */
     --background: 0 0% 100%;
     --foreground: 220 15% 15%;
-    
+
     --card: 0 0% 100%;
     --card-foreground: 220 15% 15%;
-    
+
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
-    
+
     --secondary: 220 10% 96%;
     --secondary-foreground: 220 15% 20%;
-    
+
     --muted: 220 10% 94%;
     --muted-foreground: 220 10% 45%;
-    
+
     --accent: 152 40% 95%;
     --accent-foreground: 152 55% 25%;
-    
+
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    
+
     --border: 220 13% 90%;
     --input: 220 13% 90%;
     --ring: 152 55% 35%;
-    
+
     --radius: 0.625rem;
-    
+
     /* Dark Section */
     --dark-bg: 220 20% 12%;
     --dark-card: 220 18% 16%;
     --dark-text: 220 10% 90%;
     --dark-muted: 220 10% 60%;
-    
+
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(152 55% 35%) 0%, hsl(152 60% 28%) 100%);
     --gradient-dark: linear-gradient(180deg, hsl(220 20% 12%) 0%, hsl(220 25% 8%) 100%);
     --gradient-hero: linear-gradient(135deg, hsl(220 20% 10%) 0%, hsl(220 18% 16%) 50%, hsl(152 40% 20%) 100%);
-    
+
     /* Shadows */
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
     --shadow-glow: 0 0 40px -10px hsl(152 55% 35% / 0.3);
-    
+
     /* Sidebar */
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -72,32 +74,32 @@
   .dark {
     --background: 220 20% 12%;
     --foreground: 220 10% 95%;
-    
+
     --card: 220 18% 16%;
     --card-foreground: 220 10% 95%;
-    
+
     --popover: 220 18% 16%;
     --popover-foreground: 220 10% 95%;
-    
+
     --primary: 152 50% 45%;
     --primary-foreground: 220 20% 10%;
-    
+
     --secondary: 220 15% 20%;
     --secondary-foreground: 220 10% 90%;
-    
+
     --muted: 220 15% 22%;
     --muted-foreground: 220 10% 60%;
-    
+
     --accent: 152 30% 20%;
     --accent-foreground: 152 50% 70%;
-    
+
     --destructive: 0 62% 30%;
     --destructive-foreground: 0 0% 100%;
-    
+
     --border: 220 15% 25%;
     --input: 220 15% 25%;
     --ring: 152 50% 45%;
-    
+
     --sidebar-background: 220 20% 10%;
     --sidebar-foreground: 220 10% 90%;
     --sidebar-primary: 152 50% 45%;
@@ -119,7 +121,12 @@
     font-family: 'Inter', system-ui, sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-semibold tracking-tight;
   }
 }
@@ -177,46 +184,68 @@
   }
 
   @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
   }
 
   @keyframes slideUp {
-    from { 
+    from {
       opacity: 0;
       transform: translateY(30px);
     }
-    to { 
+
+    to {
       opacity: 1;
       transform: translateY(0);
     }
   }
 
   @keyframes slideInLeft {
-    from { 
+    from {
       opacity: 0;
       transform: translateX(-30px);
     }
-    to { 
+
+    to {
       opacity: 1;
       transform: translateX(0);
     }
   }
 
   @keyframes scaleIn {
-    from { 
+    from {
       opacity: 0;
       transform: scale(0.95);
     }
-    to { 
+
+    to {
       opacity: 1;
       transform: scale(1);
     }
   }
 
-  .delay-100 { animation-delay: 100ms; }
-  .delay-200 { animation-delay: 200ms; }
-  .delay-300 { animation-delay: 300ms; }
-  .delay-400 { animation-delay: 400ms; }
-  .delay-500 { animation-delay: 500ms; }
+  .delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .delay-500 {
+    animation-delay: 500ms;
+  }
 }
